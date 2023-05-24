@@ -1,0 +1,33 @@
+.nav_card {
+  display: flex;
+  width: 440px;
+  max-height: 400px;
+  background-color: pink;
+  margin: auto;
+  margin-top: 1rem;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  padding-block: 10px;
+  list-style: none;
+}
+
+.side-nav-div {
+  width: 20%;
+  height: 100;
+  background-color: aliceblue;
+}
+.link-linee {
+  width: 300px;
+  height: 0.05rem;
+  background: gray;
+}
+a{
+  color: white;
+}

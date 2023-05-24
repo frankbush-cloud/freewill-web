@@ -1,0 +1,714 @@
+.outer-first-home-component {
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.first-home-component {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  max-width: 61rem;
+  
+  padding-top: 4rem;
+}
+
+.why-free-link{
+color: #0e6ce4;
+}
+.will-btn {
+  background-color: #dc125c;
+  border: 1px solid #dc125c;
+  border-radius: 0.1875rem;
+  box-sizing: border-box;
+  color: #1f1f1f;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 1.5rem 0;
+  padding: 0.25rem 0.875rem;
+  text-align: center;
+  width: fit-content;
+}
+
+.will-btn:hover {
+  background-color: #99093e;
+}
+
+.peace-of-mind {
+  flex: 1;
+  margin-right: 3rem;
+  padding-right: 4rem;
+  flex-wrap: wrap;
+}
+
+.peace-of-mind h1 {
+  margin-right: 4rem;
+}
+
+.peace-of-mind-pic-home{
+  width: 400px;
+  max-width: 300px
+}
+.peace-of-mind-pic-home img{
+  width: 100%;
+}
+/* .california-only {
+  background-color: ;
+} */
+.trust {
+  color: blue;
+}
+/* media section */
+.media-outer-div {
+  width: 100vw;
+  background: #fafafa;
+}
+.media-mentions {
+  padding: 2rem;
+  background: #fafafa;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 61rem;
+}
+.logo {
+  width: 100px;
+}
+.media-head {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.media-head hr {
+  position: absolute;
+  top: 2.5rem;
+}
+.logo img {
+  width: 100%;
+}
+.media-logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  
+}
+/* .left-logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.right-logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 1rem;
+} */
+
+/* freewill products section */
+.products {
+  display: flex;
+}
+.products h3 {
+  color: #1f1f1f;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+  padding: 0;
+}
+.california-only {
+  background-color: #487799;
+  color: #fff;
+  display: inline-block;
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.freewill-products {
+  padding: 48px 32px;
+  margin-inline: 3rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 2rem;
+  max-width: 61rem;
+  flex-wrap: wrap;
+}
+
+
+.products button {
+  background-color: #0000;
+  border: 1px solid #dc125c;
+  border-radius: 0.1875rem;
+  box-sizing: border-box;
+  color: #dc125c;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 1.2rem;
+  padding: 0.25rem 0.875rem;
+  text-align: center;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+   border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+
+
+.products button:hover{
+  background-color: #dc125c;
+}
+
+
+.right-products {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.left-products {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.product-link {
+  color: #dc125c;
+}
+.product-link:hover {
+  color: white;
+}
+.icon {
+  align-items: center;
+  border-radius: 3rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 1.5rem;
+  height: 3rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  position: relative;
+  width: 3rem;
+}
+.icon img {
+  fill: currentcolor;
+  display: inline-block;
+  flex-shrink: 0;
+  font-size: inherit;
+  height: 1em;
+  overflow: hidden;
+  -webkit-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  width: 1em;
+}
+.icon {
+  background-color: #f2f2f2;
+  color: #1f1f1f;
+}
+
+.heart-icon {
+  background-color: #ffb3c9;
+}
+.coin-icon {
+  background-color: #fee1b7;
+}
+.money-icon {
+  background-color: #caeacc;
+}
+.treasury-icon {
+  background-color: #cbdbe6;
+}
+
+/* trusted section
+ */
+.trusted-by-many-outer-div {
+  margin: 2rem 0;
+  padding: 0 2rem;
+}
+.trusted-by-many-inner-div {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  max-width: 61rem;
+}
+.trusted-img img {
+  width: 100%;
+  overflow: hidden;
+  text-indent: -9999px;
+  white-space: nowrap;
+  max-height: 30rem;
+  max-width: 25rem;
+}
+.trusted-text {
+  flex: 1;
+  margin-left: 5rem;
+}
+
+.trusted-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 0 1rem;
+}
+
+.trusted-text p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.trust-link {
+  color: #0e6ce4;
+}
+
+.why-freewill-outer-div {
+  margin: 4rem 0;
+  padding: 2rem;
+}
+
+/* why is freewill free */
+.why-freewill-outer-div {
+  margin: 4rem 0;
+  padding: 2rem;
+}
+.why-freewill-inner-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 61rem;
+}
+.left-why-freewill-div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5rem;
+  width: 100%;
+}
+.left-why-freewill-div span {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.left-why-freewill-div button {
+  background-color: #0000;
+  background-color: #dc125c;
+  border: 1px solid #dc125c;
+  border-radius: 0.1875rem;
+  box-sizing: border-box;
+  color: #1f1f1f;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 1.5rem;
+  padding: 0.25rem 0.875rem;
+  text-align: center;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.left-why-freewill-div button:hover {
+  background-color: #97053b;
+}
+.reason-for-freeWill {
+  display: flex;
+}
+
+.right-why-freewill-outer-div {
+  border-left: 1px solid #4f4b4b;
+  flex: 1;
+  margin-bottom: auto;
+  margin-top: auto;
+  padding: 3rem;
+}
+
+/* how freewill-wqorks -outerdiv */
+.how-freewill-works-outerDiv {
+  background-color: #487799;
+  color: #fff;
+  padding: 4rem 2rem;
+}
+.how-freeWillWorks-inner-div {
+  margin: 0 auto;
+  max-width: 61rem;
+}
+.how-freeWillWorks-lower-div {
+  background-color: #2a5474;
+  color: #fff;
+  padding: 2rem;
+}
+.diff-hows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.hows {
+  display: flex;
+  flex-direction: column;
+}
+
+.hows span {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  padding: 0;
+}
+.how-freeWillWorks-lowerInner-div {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 61rem;
+}
+
+/* living legacy section */
+
+.livingLegacy-outerDiv {
+  margin: 5rem 0;
+  padding: 2rem;
+}
+
+.legacy-text {
+  flex: 1;
+  margin-right: 6.5rem;
+}
+
+/* statistics div */
+.statistics-OuterDiv {
+  background-color: #fff4f0;
+  color: #1f1f1f;
+  padding: 0 2rem;
+}
+.statistics-innerDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin: 0 auto;
+  max-width: 61rem;
+  padding: 1.5rem 0;
+  grid-row-gap: 2rem;
+}
+.stats figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+.figure-number {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+figure p {
+  font-size: 1rem;
+}
+
+/* faqs container */
+
+.faqS-OuterDiv {
+  padding: 4rem 2rem;
+}
+.faqs-innerDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin: 0 auto;
+  max-width: 61rem;
+}
+.faq-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 6.5rem 3rem 0;
+  padding: 0;
+}
+.faqs-content {
+  display: block;
+}
+
+.faqs-content span {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  padding: 0;
+}
+.faqs-link a {
+  color: #1f1f1f;
+}
+
+.faqs-link a:hover {
+  color: rgb(194, 13, 13);
+}
+.faqs-content a span {
+  box-shadow: 0 1px 3px #1f1f1f4d, 1px 1px 2px #1f1f1f1a;
+  color: inherit;
+  display: block;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem;
+}
+.learn-blog {
+  color: #0e6ce4;
+}
+
+.faqs-link {
+  display: flex;
+  flex-direction: column;
+}
+
+/* tryfree will today */
+.try-freewill-today-left-div span {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+.try-freewill-outerDiv {
+  background-color: #f8fafc;
+  color: #1f1f1f;
+}
+
+.try-freeWill-innerDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(30, auto);
+  margin: 0 auto;
+  max-width: 61rem;
+  padding: 2rem;
+}
+
+.freeWill-trials {
+  display: flex;
+  gap: 2rem;
+}
+
+/* footer links container  */
+.footer-links-outerDiv {
+  background-color: #fff;
+  color: #717070;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-align: center;
+
+  padding: 10px;
+}
+.footer-links-innerDiv {
+  display: inline-block;
+  max-width: 61rem;
+  padding: 3rem;
+  text-align: initial;
+}
+
+.footer-links-upperDiv {
+  display: flex;
+  width: 100%;
+ 
+  justify-content: space-between;
+}
+.links-div {
+  display: flex;
+  flex-direction: column;
+}
+.links-div span {
+  color: #2a5474;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+.links-div a {
+  color: #717070;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+.socialMedia-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-links-lowerDiv {
+  align-items: flex-start;
+  border-top: 1px solid #d1d1d1;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.copyRight {
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  margin-right: 1rem;
+}
+.footer-legal-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  min-width: max-content;
+}
+.trustPilot {
+  /* height: 3rem; */
+  width: 5rem;
+  margin-right: 1rem;
+}
+.trustPilot img {
+  box-sizing: border-box;
+  height: auto;
+  max-width: 100%;
+}
+
+.accreditedBusiness {
+  width: 5rem;
+}
+
+.accreditedBusiness img {
+  max-width: 100%;
+}
+
+.freewill-footerLinks {
+  display: inline-block;
+
+  display: grid;
+  gap: 3rem;
+
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+
+  .outer-first-home-component {
+    padding: 0rem;
+    margin-top: 0rem;
+  }
+  .first-home-component {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+  }
+
+  
+  .peace-of-mind {
+    margin: 2rem 2rem 0;
+    padding-right: 0;
+  }
+  .peace-text{
+    margin-right: 0;
+  }
+  .media-logos {
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .freewill-products {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .trusted-by-many-inner-div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .why-freewill-inner-div {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .diff-hows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .how-freeWillWorks-lowerInner-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .legacy-text {
+    flex: 1;
+    margin-right: 0px;
+  }
+
+  .peace-of-mind h1 {
+    margin-right: 0px;
+  }
+
+  .left-why-freewill-div {
+    margin-right: 0;
+  }
+
+  .trusted-text {
+    margin-left: 0;
+  }
+
+  .family-imgDiv img {
+    overflow: hidden;
+    text-indent: -9999px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+  }
+  .faqs-innerDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .try-freeWill-innerDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .freeWill-trials {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1 rem;
+  }
+  .peace-of-mind-pic-home{
+    align-self: center;
+  }
+}
+
+@media (max-width: 569px) {
+  .statistics-innerDiv {
+    grid-template-columns: 1fr;
+  }
+  /* .footer-links-innerDiv {
+    grid-template-columns: repeat(2, 1fr);
+    column-count: 2;
+    column-fill: balance;
+    column-gap: 2rem;
+  } */
+  .footer-links-lowerDiv {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  
+}
+
