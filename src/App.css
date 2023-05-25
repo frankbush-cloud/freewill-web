@@ -6,6 +6,7 @@
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   line-height: 1.5;
   flex-wrap: wrap;
+  overflow-x: auto;
   
 }
 

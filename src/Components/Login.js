@@ -1,9 +1,25 @@
-import React from 'react'
 
-function Login() {
+import React from 'react'
+import { Form, Button } from 'react-bootstrap';
+
+function LoginForm() {
   return (
-    <div>Login</div>
-  )
+    <div className="form d-flex justify-content-center align-items-center">
+        <Form>
+          <Form.Group controlId="formBasicEmail">
+            <Form.Label>Email address</Form.Label>
+            <Form.Control type="email" placeholder="Enter email" />
+          </Form.Group>
+          <Form.Group controlId="formBasicPassword">
+            <Form.Label>Password</Form.Label>
+            <Form.Control type="password" placeholder="Password" />
+          </Form.Group>
+          <Button variant="primary" type="submit">
+            Submit
+          </Button>
+        </Form>
+    </div>
+  );
 }
 
-export default Login
+export default LoginForm

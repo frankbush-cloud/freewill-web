@@ -4,8 +4,8 @@ import Navbar from "./Components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
 import { useEffect, useState } from "react";
+import LoginForm from "./Components/Login";
 
-import Login from "./Components/Login";
 
 function App() {
   const [showNav, setShowNav] = useState(false);
@@ -55,7 +55,7 @@ function App() {
       <Navbar showNav={showNav} setShowNav={setShowNav} toggleNav={toggleNav} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={< Login/>} />
+        <Route path="/login" element={< LoginForm/>} />
       </Routes>
       <div class={showHome ? "out_of_nav" : "outOfNavHidden"}>
         
