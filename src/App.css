@@ -6,10 +6,13 @@
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   line-height: 1.5;
   flex-wrap: wrap;
-  overflow-x: auto;
-  
+  /* overflow: auto; */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 .out_of_nav {
   position: absolute;
   top: 2rem;
@@ -21,7 +24,7 @@
   margin: 0 auto; */
 }
 
-.outOfNavHidden{
+.contentHide{
   display: none;
 }
 .bottom-app {

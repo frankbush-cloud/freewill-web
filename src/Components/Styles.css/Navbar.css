@@ -1,6 +1,6 @@
 .navbar-outerContainer {
   background-color: #fff;
-  /* height: 4rem; */
+
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-block: 10px;
@@ -11,18 +11,23 @@
   justify-content: space-between;
   align-items: baseline;
   position: relative;
- 
+}
+
+.navSmall {
+  display: none;
 }
 
 .navBar-innerContainer {
   align-items: baseline;
   display: inline-flex;
   flex-direction: row;
-  height: 100%;
+  /* height: 100%; */
   max-width: 61rem;
   width: 100%;
   margin: 0 auto;
   justify-content: space-between;
+  overflow: hidden;
+  position: static;
 }
 .web_logo {
   width: 160px;
@@ -66,7 +71,7 @@
   display: none;
 }
 
-.rightnav {
+.rightNav {
   display: flex;
   gap: 1rem;
   align-items: baseline;
@@ -79,7 +84,7 @@
   gap: 10px;
 }
 
-.hiddennav {
+.hiddenNav {
   display: flex;
   align-items: baseline;
   z-index: 100;
@@ -115,7 +120,6 @@
   border: none;
   cursor: pointer;
   font-weight: 600;
-  
 }
 .side-nav-text {
   writing-mode: vertical-rl;
@@ -133,23 +137,24 @@
   
 } */
 
-
-
 /* mediaqueries */
 @media only screen and (max-width: 860px) {
-  .navbar {
+  /* .navbar {
     flex-direction: row;
     align-items: flex-start;
-  }
+  } */
   .route_links {
     display: flex;
     flex-direction: column;
   }
-  .rightnav {
+  .rightNav {
     display: flex;
     flex-direction: column;
+    
     position: absolute;
     align-items: baseline;
+    /* top: 20px;
+    right: 170px; */
 
     margin-top: 1rem;
   }
@@ -165,7 +170,7 @@
     margin-left: 15px;
   }
   .log {
-    background-color: white; 
+    background-color: white;
     border: 1px solid #dc125c;
     color: #dc125c;
     padding: 10px 30px;
@@ -183,7 +188,7 @@
   .btn {
     display: inline-block;
   }
-  .hiddennav {
+  .hiddenNav {
     display: none;
   }
   .navButtons {

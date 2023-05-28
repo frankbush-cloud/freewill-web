@@ -17,9 +17,9 @@ import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import freeWillLogo from "../Images/freeWillLogo.webp";
 
-function Home() {
+function Home({showNav, showHome, toggleNav}) {
   return (
-    <div>
+    <div className= "out_of_nav">
       <div className="outer-first-home-component">
         <div className="first-home-component">
           <div className="peace-of-mind">

@@ -6,10 +6,10 @@ import ReorderIcon from "@mui/icons-material/Reorder";
 import freeWillLogo from "../Images/freeWillLogo.webp";
 
 function Navbar({ showNav, setShowNav, toggleNav }) {
-  //functions to append the navlinks to the navCardcontainer upon clicking the navitems
-  //we will have a state of navcardcontainer. where by the initial state is an empty array. then upon clicking each nav item, the state changes and renders an array of navlinks
+  //functions to append the navLinks to the navCardContainer upon clicking the navitems
+  //we will have a state of navCardContainer. where by the initial state is an empty array. then upon clicking each nav item, the state changes and renders an array of navlinks
 
-  //a hndleclick function to change the state of each button clicked
+  //a handleClick function to change the state of each button clicked
 
   const individualsLinks = [
     {
@@ -102,18 +102,18 @@ function Navbar({ showNav, setShowNav, toggleNav }) {
   //state to define the sidenavitem
   const [showSideNavItem, setShowSideNavItem] = useState("");
 
-  
-
   const handleIndividualsClick = () => {
     setItems(individualsLinks);
     setShowIndividualLinks(!showIndividualLinks);
     setShowSideNavItem("For Individiual");
+    console.log("individualsLinks")
   };
 
   const handleProfitsClick = () => {
     setItems(nonProfitsLinks);
     setShowProfitsLinks(!showProfitsLinks);
     setShowSideNavItem("For non Profits");
+    console.log("profitd")
   };
 
   const handleLawyersClick = () => {
@@ -128,48 +128,49 @@ function Navbar({ showNav, setShowNav, toggleNav }) {
     setShowSideNavItem("About Us");
   };
   //const sideNavItems = ["For individuals", "For Nonprofits", "Lawyers", "About Us"]
-  //conditions for diffrent classnames for the navcard copmonent
-  let className = "nav_card";
-  let nonDisplayClassName = "individual_navCard_div";
+  //conditions for different classnames for the navCard component
+  let className = "";
+  let navClass = "nav_card";
+  let nonNav = "individual_navCard_div";
+  //const className = navCl
 
   if (showIndividualLinks) {
-    className = nonDisplayClassName;
+    className = nonNav;
   } else {
-    className = className
+    className = navClass;
   }
-// 
+  //
   if (showProfitsLinks) {
-    className = nonDisplayClassName;
+    className = nonNav;
   } else {
-    className = className
+    className = navClass;
   }
 
   if (showAbout) {
-    className = nonDisplayClassName;
+    className = nonNav;
   } else {
-    className = className
+    className = navClass;
   }
-
 
   if (showLawyers) {
-    className = nonDisplayClassName;
-  }else {
-    className = className
+    className = nonNav;
+  } else {
+    className = navClass;
   }
-  
 
   return (
     <div className="navbar-outerContainer">
       <div className="navBar-innerContainer">
         <div className="web_logo">
-          <Link to="/" className="home_link link">
+          <Link to="/Home" className="home_link link">
             <img src={freeWillLogo} alt="free-will-logo" />
           </Link>
         </div>
-        <div className={showNav ? "rightnav" : "hiddennav"}>
+
+        <div className={showNav ? "rightNav" : "hiddenNav"}>
           <div className="route_links">
-            <div class="individual_item_div nav_items">
-              <div class="navButtons">
+            <div className="individual_item_div nav_items">
+              <div className="navButtons">
                 <button onClick={handleIndividualsClick}>
                   Fon individuals
                 </button>
@@ -189,7 +190,7 @@ function Navbar({ showNav, setShowNav, toggleNav }) {
                   {items.map((item) => (
                     <React.Fragment>
                       <li>
-                        <Link to={item.linkAddress} key={item}>
+                        <Link to={item.linkAddress} key={item.linkName}>
                           {item.linkName}
                         </Link>
                       </li>
